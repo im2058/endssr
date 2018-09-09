@@ -1,0 +1,21 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "pypy"
+  - "nightly"
+
+install:
+  - pip install cython
+
+before_script:
+  - mysql -e 'create database test_cymysql DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;'
+  - mysql -e 'create database test_cymysql2 DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;'
+
+script:
+  - python setup.py test
+  - if [[ $TRAVIS_PYTHON_VERSION != pypy ]]; then python setup.py build_ext -i; python setup.py test; fi
