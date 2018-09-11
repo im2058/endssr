@@ -4133,3 +4133,26 @@
 2018-09-09 16:04:38 INFO     tcprelay.py:794 TCP connecting www.freedoor.ml(142.93.1.173):8888 from 206.189.79.178:43571 by user 10003
 2018-09-09 16:04:41 INFO     tcprelay.py:643 TCP request www.freedoor.ml:8888 by user 10003
 2018-09-09 16:04:41 INFO     tcprelay.py:794 TCP connecting www.freedoor.ml(142.93.1.173):8888 from 206.189.79.178:58366 by user 10003
+2018-09-11 14:35:13 INFO     util.py:94 loading libcrypto from libcrypto.so.10
+2018-09-11 14:35:13 INFO     asyncdns.py:287 black_hostname_list init as : []
+2018-09-11 14:35:13 INFO     asyncdns.py:335 dns server: [('108.61.10.10', 53)]
+2018-09-11 14:35:13 INFO     shell.py:74 ShadowsocksR SSRR 3.2.2 2018-05-22
+2018-09-11 14:35:13 INFO     db_transfer.py:244 current process RLIMIT_NOFILE resource: soft 512000 hard 512000
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10000] pass [@123] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10000
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10000
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10004] pass [6qrSiW] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10004
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10004
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10005] pass [PNUURM] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10005
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10005
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10001] pass [spq8NT] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10001
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10001
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10002] pass [dTvbVH] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10002
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10002
+2018-09-11 14:35:14 INFO     db_transfer.py:211 db start server at port [10003] pass [TxvGpY] protocol [auth_aes128_md5] method [aes-256-cfb] obfs [plain]
+2018-09-11 14:35:14 INFO     server_pool.py:127 starting server at [::]:10003
+2018-09-11 14:35:14 INFO     server_pool.py:153 starting server at 0.0.0.0:10003

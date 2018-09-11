@@ -1,0 +1,53 @@
+Retrieving http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+Preparing...                          ########################################
+Updating / installing...
+elrepo-release-7.0-3.el7.elrepo       ########################################
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp-srv2.kddilabs.jp
+ * elrepo: ftp.yz.yamagata-u.ac.jp
+ * elrepo-kernel: ftp.yz.yamagata-u.ac.jp
+ * epel: mirrors.cat.pdx.edu
+ * extras: ftp-srv2.kddilabs.jp
+ * updates: ftp-srv2.kddilabs.jp
+Resolving Dependencies
+--> Running transaction check
+---> Package kernel-ml.x86_64 0:4.18.7-1.el7.elrepo will be installed
+---> Package kernel-ml-devel.x86_64 0:4.18.7-1.el7.elrepo will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch       Version                 Repository         Size
+================================================================================
+Installing:
+ kernel-ml           x86_64     4.18.7-1.el7.elrepo     elrepo-kernel      45 M
+ kernel-ml-devel     x86_64     4.18.7-1.el7.elrepo     elrepo-kernel      12 M
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 57 M
+Installed size: 248 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              2.2 MB/s |  57 MB  00:26     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : kernel-ml-4.18.7-1.el7.elrepo.x86_64                         1/2 
+  Installing : kernel-ml-devel-4.18.7-1.el7.elrepo.x86_64                   2/2 
+  Verifying  : kernel-ml-devel-4.18.7-1.el7.elrepo.x86_64                   1/2 
+  Verifying  : kernel-ml-4.18.7-1.el7.elrepo.x86_64                         2/2 
+
+Installed:
+  kernel-ml.x86_64 0:4.18.7-1.el7.elrepo                                        
+  kernel-ml-devel.x86_64 0:4.18.7-1.el7.elrepo                                  
+
+Complete!
+
+[0;32mInfo:[0m The system needs to reboot.
+Do you want to restart system? [y/n][0;32mInfo:[0m Reboot has been canceled...

@@ -1,10 +1,10 @@
 {
     "host": "142.93.1.173",
     "port": 3306,
-    "user": "sstest",
+    "user": "ssrpanel",
     "password": "im2058",
-    "db": "sstest",
-    "node_id": 2,
+    "db": "ssrpanel",
+    "node_id": 3,
     "transfer_mul": 1.0,
     "ssl_enable": 0,
     "ssl_ca": "",
